@@ -1,4 +1,4 @@
-# 🚫 YouTube Comment Toxicity Detector
+# YouTube Comment Toxicity Detector
 
 In the digital age, comments shouldn't be a source of noise or negativity. **YouTube Comment Toxicity Detector** is a specialized tool designed to bring clarity and safety to digital conversations. Using machine learning, it screens for toxic language, threats, and insults, helping creators and moderators foster healthier communities.
 
@@ -6,7 +6,7 @@ In the digital age, comments shouldn't be a source of noise or negativity. **You
 
 ---
 
-## ✨ The Mission
+## The Mission
 The goal of this project isn't just to "filter words"—it's to understand **context**. By using advanced NLP techniques, we've built a system that recognizes the difference between casual conversation and harmful intent, providing a first line of defense against online toxicity.
 
 - **Automated Moderation**: Fast, real-time screening for incoming comments.
@@ -15,7 +15,7 @@ The goal of this project isn't just to "filter words"—it's to understand **con
 
 ---
 
-## 🧠 How it Works: The NLP Pipeline
+## How it Works: The NLP Pipeline
 The detector doesn't just guess—it follows a rigorous scientific pipeline to ensure every prediction is backed by data.
 
 ```mermaid
@@ -32,21 +32,21 @@ graph TD
     C -->|TF-IDF| D[Feature Vectorization]
     D -->|Logistic Regression| E[Probability Score]
     
-    E -->|High Score| F[🚨 TOXIC]
-    E -->|Low Score| G[✅ CLEAN]
+    E -->|High Score| F[TOXIC]
+    E -->|Low Score| G[CLEAN]
 ```
 
 ---
 
-## 🚀 Feature Highlights
-- **🎭 Multi-Label Insights**: Detects not just general toxicity, but specific categories like insults, threats, and abuse.
-- **🌪️ TF-IDF Vectorization**: Uses statistical weights to identify which words carry the most "toxic" importance in a sentence.
-- **⚡ Flask-Powered Inference**: A lightweight, high-performance web server ensures instant predictions.
-- **🧼 Robust Cleaning**: Integrated **NLTK** pipeline for professional-grade text lemmatization and cleaning.
+## Feature Highlights
+- **Multi-Label Insights**: Detects not just general toxicity, but specific categories like insults, threats, and abuse.
+- **TF-IDF Vectorization**: Uses statistical weights to identify which words carry the most "toxic" importance in a sentence.
+- **Flask-Powered Inference**: A lightweight, high-performance web server ensures instant predictions.
+- **Robust Cleaning**: Integrated **NLTK** pipeline for professional-grade text lemmatization and cleaning.
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 - **Engine**: Python, Scikit-learn (Logistic Regression)
 - **Intelligence**: NLTK (Natural Language Toolkit)
 - **Vectorization**: TF-IDF (Term Frequency-Inverse Document Frequency)
@@ -55,7 +55,7 @@ graph TD
 
 ---
 
-## 🏁 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -83,7 +83,7 @@ graph TD
 
 ---
 
-## ⚖️ A Commitment to Ethics
+## A Commitment to Ethics
 Toxicity detection is a sensitive field. This tool is designed to assist humans, not replace them. We believe in **transparent moderation**, where AI handles the heavy lifting of screening, allowing human community managers to make the final, nuanced decisions.
 
 ---
